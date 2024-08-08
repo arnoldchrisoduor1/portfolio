@@ -1,0 +1,51 @@
+.skills__main__container{
+    display: flex;
+}
+
+.edu_container {
+    flex: 1;
+    margin: 1rem 1rem;
+    background-color: #071e2c;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.edu_header {
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.skills_section {
+    padding: 1rem;
+    color: greenyellow;
+    word-spacing: 20px;
+    line-height: 20px;
+}
+
+.edu_description {
+    padding: 1rem;
+    color: rgb(200, 201, 200);
+}
+
+.skill__list {
+    padding: 1rem;
+    list-style: disc;
+}
+
+.skill__list li {
+    margin-bottom: 20px;
+}
+
+.skill__description {
+    padding: 1rem;
+    background-color: greenyellow;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.what__text {
+    margin: 0rem 0rem 1rem -1rem;
+}

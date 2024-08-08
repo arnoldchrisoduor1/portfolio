@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+
+  --color-bg: #092537;
+
+  --text-color: white;
+
+  --highlight: #9acd32;
+
+  --menu-gradient: background: linear-gradient(90deg, rgba(14,48,70,1) 0%, rgba(60,87,6,1) 96%);
+}
+
+.hero__container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar{
+    width: 70px;
+    height: 3px;
+    background-color: yellowgreen;
+    margin-bottom: .5rem;
+}
+
+.sub__header{
+    color:var(--text-color);
+    font-family: var(--font-family);
+    font-size: 17px;
+}
+
+.ml__header{
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 50px;
+    margin-top: 1rem;
+}
+
+.hero__cta{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.active_link{
+    color: var(--text-color);
+    text-decoration: underline yellowgreen;
+}
+.link_icons{
+    color: #66b2b2;
+}
+.outward__arrow {
+    color: #66b2b2;
+}
+
+ 
+ @media screen and (max-width: 600px){
+    .hero__cta{
+        margin-top: 2rem;
+    }
+    .container{
+        margin-inline: 1rem;
+      }
+    .hero__container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+    .sub__header {
+        font-size: 23px;
+        margin-top: 1rem;
+    }
+    
+
+    .ml__header{
+        margin-top: 3rem;
+        font-size: 65px;
+    }
+    .hero__cta{
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .sub__header{
+        margin-top: 2rem;
+        font-size: 33px;
+    }
+
+    .ml__header{
+        margin-top: 2rem;
+        font-size: 80px;
+    }
+    .hero__cta{
+        gap: 2rem;
+    }
+    .active_link{
+        font-size: 20px;
+    }
+    .link_icons{
+        font-size: 25px;
+    }
+    .hero__container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+    .bar{
+        width: 150px;
+    }
+    .sub__header{
+        margin-top: 3rem;
+        font-size: 38px;
+    }
+
+    .ml__header{
+        margin-top: 3rem;
+        font-size: 90px;
+    }
+    .hero__cta{
+        gap: 2rem;
+    }
+    .active_link{
+        font-size: 25px;
+    }
+    .link_icons{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .hero__container{
+        display: flex;
+    }
+    .container {
+        margin-inline: auto;
+      }
+    .bar{
+        width: 200px;
+    }
+    .sub__header{
+        margin-top: 3rem;
+        font-size: 40px;
+    }
+
+    .ml__header{
+        margin-top: 3rem;
+        font-size: 95px;
+    }
+    .hero__cta{
+        gap: 3rem;
+    }
+    .active_link{
+        font-size: 25px;
+    }
+    .link_icons{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-height: 720px) and (min-width: 550px) {
+    .hero__container{
+        margin-top: 5rem;
+    }
+    .bar{
+        width: 100px;
+    }
+    .sub__header{
+        margin-top: 2rem;
+        font-size: 28px;
+    }
+
+    .ml__header{
+        margin-top: 1rem;
+        font-size: 60px;
+    }
+    .hero__cta{
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    .active_link{
+        font-size: 15px;
+    }
+    .link_icons{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-height: 1150px) and (min-width: 420px) {
+    .hero__container{
+        margin-top: 7rem;
+    }
+    .bar{
+        width: 90px;
+    }
+    .sub__header{
+        margin-top: 2rem;
+        font-size: 23px;
+    }
+
+    .ml__header{
+        margin-top: 3rem;
+        font-size: 60px;
+    }
+    .hero__cta{
+        margin-top: 4rem;
+        gap: 2rem;
+    }
+    .active_link{
+        font-size: 15px;
+    }
+    .link_icons{
+        font-size: 15px;
+    }
+}
+
+ 
+
+@media screen and (min-height: 600px) and (min-width: 1024px) {
+    .hero__container{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .bar{
+        width: 80px;
+    }
+    .sub__header{
+        margin-top: 1rem;
+        font-size: 23px;
+    }
+
+    .ml__header{
+        margin-top: 2rem;
+        font-size: 70px;
+    }
+    .hero__cta{
+        gap: 2rem;
+    }
+    .active_link{
+        font-size: 15px;
+    }
+    .link_icons{
+        font-size: 15px;
+    }
+}
+

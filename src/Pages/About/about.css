@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin-top: 10rem;
+    color: white;
+}
+
+.education_head {
+    margin: 1rem;
+}
+
+.img_div {
+    margin: 4rem 0rem 2rem 2rem;
+}
+
+.my_picture {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .main_container{
+        overflow: hidden;
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    .my_picture{
+        display: none;
+    }
+}

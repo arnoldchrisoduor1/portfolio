@@ -1,0 +1,68 @@
+.blog__header{
+    margin: 1rem 0rem;
+}
+
+.blog_data {
+    padding: 1rem;
+}
+
+.blog__container {
+    max-width: 350px;
+    overflow: hidden;
+    background-color: #071e2c;
+    border-radius: .5rem;
+}
+
+.blog_img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.blog__title {
+    margin: .5rem 0rem;
+}
+
+.blog_description {
+    color: rgb(182, 180, 180);
+}
+
+.project__button {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.project__button button{
+    padding: .5rem;
+    outline: none;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.project__button button:nth-child(1) {
+    background-color: tomato;
+}
+
+.project__button button:nth-child(3) {
+    background-color: lightblue;
+}
+
+.project__tech {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    margin-top: .5rem;
+}
+
+.language__color {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.project__language {
+    display: relative;
+}

@@ -1,0 +1,26 @@
+.edu__main__container{
+    display: flex;
+}
+
+.edu_container {
+    margin: 1rem 1rem;
+    background-color: #071e2c;
+    flex: 1;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.edu_header {
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.edu_school {
+    padding: 1rem;
+    color: greenyellow;
+}
+
+.edu_description {
+    padding: 1rem;
+    color: rgb(200, 201, 200);
+}

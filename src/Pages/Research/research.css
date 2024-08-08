@@ -1,0 +1,10 @@
+.research__container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.research__content{
+    margin-top: 15rem;
+}

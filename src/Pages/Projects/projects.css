@@ -1,0 +1,28 @@
+.project__container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 16px;
+}
+.project__items__container {
+    margin-top: 10rem;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .project__items {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller devices */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project__items {
+      grid-template-columns: 1fr; /* One column on the smallest devices */
+    }
+  }

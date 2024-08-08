@@ -1,0 +1,35 @@
+.blog__header{
+    margin: 1rem 0rem;
+}
+
+.blog_data {
+    padding: 1rem;
+}
+
+.blog__container {
+    max-width: 350px;
+    overflow: hidden;
+    background-color: #071e2c;
+    border-radius: .5rem;
+}
+
+.blog_img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.blog__title {
+    margin: .5rem 0rem;
+}
+
+.blog_description {
+    color: rgb(182, 180, 180);
+}
+
+.blog__read_more {
+    margin: 1rem 0rem;
+    border-bottom: 3px solid yellowgreen;
+    display: inline-block;
+    cursor: pointer;
+}
