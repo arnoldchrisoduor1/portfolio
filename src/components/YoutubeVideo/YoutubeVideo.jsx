@@ -8,8 +8,8 @@ const YouTubeVideo = ({ videoId, thumbnailUrl }) => {
     let player;
     function onYouTubeIframeAPIReady() {
       player = new window.YT.Player(containerRef.current, {
-        height: '390',
-        width: '640',
+        height: '290',
+        width: '540',
         videoId,
         playerVars: {
           autoplay: 0,

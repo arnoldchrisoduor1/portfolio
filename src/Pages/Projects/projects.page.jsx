@@ -16,7 +16,7 @@ const Projects = () => {
                 key={index}
                 title={project.title}
                 desc={project.desc}
-                video={project.video}
+                img={project.img}
                 languages={project.languages}
                 colors = {project.colors}
                 videoThumbnail = {project.videoThumbnail}
