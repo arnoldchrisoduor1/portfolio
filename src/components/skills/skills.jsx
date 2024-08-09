@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <div className="skills__main__container">
       <div className="edu_container">
-        <h3 className="edu_header">Full Stack Web Development</h3>
+        <h3 className="edu_header">Web Development</h3>
 
         <p>Languages and Tools:-</p>
 
@@ -179,7 +179,7 @@ const Skills = () => {
           {dataState ? "Hide Content" : "See What I Can Do"}
         </button>
 
-        <h3 className="edu_header">Data Engineering</h3>
+        {/* <h3 className="edu_header">Data Engineering</h3>
 
         <p>Languages and Tools:-</p>
 
@@ -260,7 +260,7 @@ const Skills = () => {
 
         <button className="skill__description" onClick={toggleEngineeringState}>
           {engineeringState ? "Hide Content" : "See What I Can Do"}
-        </button>
+        </button> */}
 
 
         <h3 className="edu_header">Machine Learning</h3>

@@ -2,15 +2,22 @@
     margin: 1rem 0rem;
 }
 
-.blog_data {
-    padding: 1rem;
-}
-
 .blog__container {
     max-width: 350px;
+    min-height: 500px;
     overflow: hidden;
     background-color: #071e2c;
     border-radius: .5rem;
+}
+
+.blog_data {
+    padding: 1rem;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .blog_img {
@@ -31,6 +38,7 @@
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
+    bottom: 0;
 }
 .project__button button{
     padding: .5rem;
@@ -72,7 +80,7 @@
 .project__tech {
     display: flex;
     align-items: center;
-    gap: 3em;
+    gap: .1em;
     margin-top: .5rem;
 }
 
