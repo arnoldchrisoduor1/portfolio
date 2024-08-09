@@ -20,6 +20,8 @@ const Projects = () => {
                 languages={project.languages}
                 colors = {project.colors}
                 youtubeUrl = {project.youtubeUrl}
+                github={project.github}
+                live={project.live}
               />
             ))}
         </div>

@@ -24,6 +24,7 @@
 
 .my_picture {
     border-radius: 15px;
+    width: 300px;
 }
 
 @media screen and (max-width: 500px) {

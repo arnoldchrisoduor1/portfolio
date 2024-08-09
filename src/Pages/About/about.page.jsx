@@ -1,5 +1,5 @@
 import Navbar from "../../components/navbar/navbar";
-import myImage from '../../assets/about.jpg'
+import myImage from '../../assets/me.jpg'
 import Education from "../../components/education/education";
 import Skills from "../../components/skills/skills";
 import Blog from "../../components/Blog/blog"

@@ -5,6 +5,7 @@ import Goapi from "./go_api.png"
 import Analysis1 from './analysis1.png'
 import Tokyo from './tokyo.png'
 import Jumia from './jumia.png'
+import Medical from './medicals.png'
 
 const projects = [
     {
@@ -52,11 +53,13 @@ const projects = [
       languages: ["Python", "Bash"]
     },
     {
-      title: "Title",
-      desc: "This section will Hold a Semi-Detailed Description of the project, providing a quick overview for the users",
-      img: Soon,
-      colors: ["#4CAF50", "#2196F3", "#673AB7"],
-      languages: ["Python", "Django", "SQL"]
+      title: "Medical Costs Prediction.",
+      desc: "I trained and tuned the parameters of various regression machine learning models to get the best model that can predict a patients medical costs based on certain criteria some of the models were:- XGBoost, Random, Forest with RFE, Ridge regression and others.",
+      img: Medical,
+      colors: ["#2196F3"],
+      languages: ["Python",],
+      github: "https://www.kaggle.com/code/arnoldoduor/medical-costs-prediction-regression",
+      live: "https://www.kaggle.com/code/arnoldoduor/medical-costs-prediction-regression"
     },
     {
       title: "Title",
