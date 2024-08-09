@@ -1,13 +1,15 @@
 import Soon from './soon1.jpg'
+import Potatoe from './potatoe.png'
 
 const projects = [
     {
       title: "Potatoe Blight Disease Detector",
       desc: "I trained A Convolutional Neural Network to detect the stages of blight disease in potatoes, Flask was used as the API which served the model through tensor-serving to a react frontend, all the applications were containerized with docker.",
-      img: Soon,
+      img: Potatoe,
       colors: ["#4CAF50", "Yellow"],
       languages: ["Python", "JavaScript"],
-      videoThumbnail: Soon
+      videoThumbnail: Soon,
+      youtubeUrl: "https://www.youtube.com/embed/3jGhTnmAuVM?si=bVypJif_UlpJVS3I"
     },
     {
       title: "Potato Project",

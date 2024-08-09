@@ -19,7 +19,7 @@ const Projects = () => {
                 img={project.img}
                 languages={project.languages}
                 colors = {project.colors}
-                videoThumbnail = {project.videoThumbnail}
+                youtubeUrl = {project.youtubeUrl}
               />
             ))}
         </div>
