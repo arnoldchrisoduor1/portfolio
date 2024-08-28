@@ -97,9 +97,9 @@ const Skills = () => {
           </li>
         </ul>
 
-        <button className="skill__description" onClick={toggleCanDo}>
+        {/* <button className="skill__description" onClick={toggleCanDo} disabled>
           {canDo ? "Hide Content" : "See What I Can Do"}
-        </button>
+        </button> */}
 
         <h3 className="edu_header">Data Analysis</h3>
 
@@ -175,9 +175,9 @@ const Skills = () => {
           </li>
         </ul>
 
-        <button className="skill__description" onClick={toggleDataState}>
+        {/* <button className="skill__description" onClick={toggleDataState} disabled>
           {dataState ? "Hide Content" : "See What I Can Do"}
-        </button>
+        </button> */}
 
         {/* <h3 className="edu_header">Data Engineering</h3>
 
@@ -340,9 +340,9 @@ const Skills = () => {
             prediction and decision-making
           </li>
         </ul>
-        <button className="skill__description" onClick={toggleMlState}>
+        {/* <button className="skill__description" onClick={toggleMlState} disabled>
           {mlState ? "Hide Content" : "See What I Can Do"}
-        </button>
+        </button> */}
       </div>
     </div>
   );
