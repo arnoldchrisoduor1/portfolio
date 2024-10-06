@@ -13,7 +13,7 @@
 }
 
 .hero__container{
-    margin-top: 10rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: space-around;
 }
@@ -230,7 +230,7 @@
 
 @media screen and (min-height: 600px) and (min-width: 1024px) {
     .hero__container{
-        margin-top: 10rem;
+        margin-top: 8rem;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
