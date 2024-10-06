@@ -17,14 +17,14 @@ const About = () => {
             <Education />
             <h2 className="education_head">Skills</h2>
             <Skills />
+            <div className="education_head">
+            <Blog />
+          </div>
         </div>
 
         <div className="img_div">
           <img src={myImage} className="my_picture" alt="My Picture" />
 
-          <div className="blogContainer">
-            <Blog />
-          </div>
         </div>
 
       </div>

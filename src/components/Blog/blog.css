@@ -1,3 +1,10 @@
+.blog__group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 16px;
+}
+
 .blog__header{
     margin: 1rem 0rem;
 }
