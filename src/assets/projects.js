@@ -6,6 +6,7 @@ import Analysis1 from './analysis1.png'
 import Tokyo from './tokyo.png'
 import Jumia from './jumia.png'
 import Medical from './medicals.png'
+import Flask from './flask.png'
 
 const projects = [
     {
@@ -24,11 +25,11 @@ const projects = [
       youtubeUrl: "https://www.youtube.com/embed/d3umlU_3mpw?si=qN8HX6JeFhK3Cosw"
     },
     {
-      title: "Financial Analysis DashBoard.",
-      desc: "Created this PowerBI Financial Analysis DashBoard for a Car Company.",
-      img: Analysis1,
-      colors: ["Yellow"],
-      languages: ["PowerBI"]
+      title: "Flask Devops Pipeline",
+      desc: "Created a CRUD Flask Server Dockerized with Dockerfile that builds, runs unit tests and load testing with Locust before automatically registering the container to Docker Hub.",
+      img: Flask,
+      colors: ["Blue", "Green", "Brown", "Black"],
+      languages: ["Flask", "Locust", "Docker", "Git.Actions"]
     },
     {
       title: "World Olympics Data Engineering Pipeline.",
