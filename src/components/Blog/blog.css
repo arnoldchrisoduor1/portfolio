@@ -40,3 +40,15 @@
     display: inline-block;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .blog__group {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller devices */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog__group {
+      grid-template-columns: 1fr; /* One column on the smallest devices */
+    }
+  }
