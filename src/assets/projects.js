@@ -9,14 +9,6 @@ import Medical from './medicals.png'
 
 const projects = [
     {
-      title: "Potatoe Blight Disease Detector.",
-      desc: "I trained A Convolutional Neural Network to detect the stages of blight disease in potatoes, FastAPI was used as the API which served the model through tensor-serving to a react frontend, all the applications were containerized with docker.",
-      img: Potatoe,
-      colors: ["#2196F3", "Yellow"],
-      languages: ["Python", "JavaScript"],
-      youtubeUrl: "https://www.youtube.com/embed/3jGhTnmAuVM?si=bVypJif_UlpJVS3I"
-    },
-    {
       title: "Go API",
       desc: "Created a Go API using the Gorilla Module with CRUD capabilities. Also wrote tests to ensure it's functionality.",
       img: Goapi,
@@ -39,7 +31,7 @@ const projects = [
       languages: ["PowerBI"]
     },
     {
-      title: "Tokyo Olympics Data Engineering Pipeline.",
+      title: "World Olympics Data Engineering Pipeline.",
       desc: "Built the data enginerring pipeline in Azure usng Gen2 storages, data factory, azure databricks and also tried all the steps in azure Synapse.",
       img: Tokyo,
       colors: ["#2196F3", "#2196B1"],
@@ -60,20 +52,6 @@ const projects = [
       languages: ["Python",],
       github: "https://www.kaggle.com/code/arnoldoduor/medical-costs-prediction-regression",
       live: "https://www.kaggle.com/code/arnoldoduor/medical-costs-prediction-regression"
-    },
-    {
-      title: "Title",
-      desc: "This section will Hold a Semi-Detailed Description of the project, providing a quick overview for the users",
-      img: Soon,
-      colors: ["#4CAF50", "#2196F3", "#673AB7"],
-      languages: ["Python", "Django", "SQL"]
-    },
-    {
-      title: "Title",
-      desc: "This section will Hold a Semi-Detailed Description of the project, providing a quick overview for the users",
-      img: Soon,
-      colors: ["#4CAF50", "#2196F3", "#673AB7"],
-      languages: ["Python", "Django", "SQL"]
     },
     // Add more project objects as needed
   ];
