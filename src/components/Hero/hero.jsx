@@ -17,7 +17,8 @@ const Hero = () => {
                 <div className="bar"></div>
                 <p className="sub__header">Building Intelligent Systems</p>
                 <p className="ml__header">ML<br/>Engineer</p>
-                <p className="sub__header">& Backend Developer</p>
+                <p className="sub__header">|| Web Developer</p>
+                <p className="sub__header">AI/ML Lead<a href="https://x.com/KaizenClub_" style={{color: "yellowgreen"}}> @KaizenClub_</a></p>
             </div>
 
             <div className="hero__cta">
