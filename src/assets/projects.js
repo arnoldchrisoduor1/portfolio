@@ -7,6 +7,7 @@ import Tokyo from './tokyo.png'
 import Jumia from './jumia.png'
 import Medical from './medicals.png'
 import Flask from './flask.png'
+import portfolio from "./portfolio_v1.png"
 
 const projects = [
     {
@@ -53,6 +54,15 @@ const projects = [
       languages: ["Python",],
       github: "https://www.kaggle.com/code/arnoldoduor/medical-costs-prediction-regression",
       live: "https://www.kaggle.com/code/arnoldoduor/medical-costs-prediction-regression"
+    },
+    {
+      title: "Portfolio V.1",
+      desc: "My very first portfolio",
+      img: portfolio,
+      colors: ["black","blue", "yellow", ],
+      languages: ["HTML","CSS","Javascript",],
+      github: "https://arnoldchrisoduor1.github.io/",
+      live: "https://arnoldchrisoduor1.github.io/"
     },
     // Add more project objects as needed
   ];
