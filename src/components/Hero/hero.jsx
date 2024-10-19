@@ -23,13 +23,6 @@ const Hero = () => {
         <p className="sub__header" style={{ marginBottom: ".5rem" }}>
           Web Development + Cloud
         </p>
-        <p className="sub__header">
-          AI/ML Lead
-          <a href="https://x.com/KaizenClub_" style={{ color: "yellowgreen" }}>
-            {" "}
-            @KaizenClub_
-          </a>
-        </p>
       </div>
 
       <div className="hero__cta">
