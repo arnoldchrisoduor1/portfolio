@@ -1,18 +1,18 @@
 import Trendmart from './trendmart.png'
-import Goapi from "./go_api.png"
 import Tokyo from './tokyo.png'
 import Jumia from './jumia.png'
 import Medical from './medicals.png'
 import Flask from './flask.png'
 import portfolio from "./portfolio_v1.png"
+import Health from "./arch.png"
 
 const projects = [
     {
-      title: "Go API",
-      desc: "Created a Go API using the Gorilla Module with CRUD capabilities. Also wrote tests to ensure it's functionality.",
-      img: Goapi,
-      colors: ["#2196F3", "Blue"],
-      languages: ["Go", "PostgreSQL"]
+      title: "Hospital Management System - (in development)",
+      desc: "Planned to be the most advanced hospital management system in Kenya, when completed it will feature advanced AI implementations for disease prediction based on previous visits and many other features including real-time data processing, and diagnose assist.",
+      img: Health,
+      colors: ["#2196F3", "Blue", "yellow", "green"],
+      languages: ["Go", "PostgreSQL", "GraphQL", "NextJS"]
     },
     {
       title: "TrendMart Shopping Website",
