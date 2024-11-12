@@ -14,14 +14,16 @@ const Hero = () => {
     <div className="hero__container">
       <div className="hero__data">
         <div className="bar"></div>
-        <p className="sub__header">Building Intelligent Systems</p>
+        <p className="sub__header">I build stunning (UI/UX) <br/>performant(backend) intelligent (ML)
+          systems.
+        </p>
         <p className="ml__header">
-          ML
+          Software
           <br />
           Engineer
         </p>
         <p className="sub__header" style={{ marginBottom: ".5rem" }}>
-          Web Development + Cloud
+          ML + Cloud
         </p>
       </div>
 

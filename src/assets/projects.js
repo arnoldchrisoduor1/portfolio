@@ -12,7 +12,8 @@ const projects = [
       desc: "Planned to be the most advanced hospital management system in Kenya, when completed it will feature advanced AI implementations for disease prediction based on previous visits and many other features including real-time data processing, and diagnose assist.",
       img: Health,
       colors: ["#2196F3", "Blue", "yellow", "green"],
-      languages: ["Go", "PostgreSQL", "GraphQL", "NextJS"]
+      languages: ["Go", "PostgreSQL", "GraphQL", "NextJS"],
+      live: "https://aimedicals.netlify.app/#contacts"
     },
     {
       title: "TrendMart Shopping Website",
